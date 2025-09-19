@@ -22,6 +22,14 @@ body{
     
 }
 
+.yuki{
+    position: absolute;
+    top: 1.5em;
+    left: 85em;
+    width: 15%;
+
+}
+
 .sobreMi {
     position: relative;
     top: 5em;
@@ -42,6 +50,7 @@ body{
 }
 .sobreMi:hover {
     filter: brightness(60%);
+    
 
 }
 
