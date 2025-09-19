@@ -1,0 +1,141 @@
+* {
+    background-color: white;
+    font-family: monospace;
+    color: black;
+}
+
+.titular {
+    font-size: 350%;
+    text-align: center;
+    margin-top: 2%;
+
+}
+
+.botonVolver{
+    border: black solid;
+    border-radius: 5px;
+    font-size: 200%;
+    text-decoration: none;
+    position: absolute;
+    top: 1em;
+    left: 2em;
+    padding: 0.3em;
+
+}
+
+.botonVolver:hover{
+    border: red solid;
+    color: red;
+    border-radius: 5px;
+    font-size: 200%;
+    text-decoration: none;
+    position: absolute;
+    top: 1em;
+    left: 2em;
+    padding: 0.3em;
+
+}
+
+.titular1 {
+    font-size: 350%;
+    text-align: left;
+    margin-top: 5%;
+    margin-left: 4%;
+    text-decoration: double;
+
+}
+
+.seccion1 {
+    font-size: 180%;
+    text-align: left;
+    margin-left: 4%;
+    width: 40%;
+    margin-top: 0.5em;
+}
+
+.fotoYo{
+    position: absolute;
+    top: 12em;
+    left: 62em;
+    width: 35%;
+    border-radius: 3em;
+
+}
+
+.contenedor2{
+    width: 40%;
+    position: relative;
+    top: 12em;
+    left:50%;
+    text-align: right;
+}
+
+.titular2 {
+    font-size: 350%;
+    margin-top: 5%;
+    text-decoration: double;
+}
+
+.seccion2 {
+    margin-top: 0.5em;
+    font-size: 180%;
+}
+
+.gitHubFoto{
+    position: absolute;
+    top: 55em;
+    left: 8em;
+    border-radius: 20px;
+    width: 35%;
+}
+
+.contenedor3 {
+    width: 40%;
+    position: relative;
+    top: 20em;
+    left: 5em;
+    text-align: left;
+
+}
+
+.programadorFoto{
+    position: absolute;
+    top: 100em;
+    left: 62em;
+    border-radius: 20px;
+    width: 35%;
+}
+
+
+.contenedorRedes{
+    margin: auto;
+    text-align: center;
+    position: relative;
+    top: 24em;
+    width: 40%;
+
+
+}
+
+.enlacesRedes{
+    text-decoration: none;
+
+}
+
+.enlacesRedes:hover{
+    text-decoration: none;
+    color:red;
+}
+
+
+.contenedoraAbajo{
+width: 101.2%;
+height: 8em;
+background-color: black;
+color: white;
+position: relative;
+top: 28em;
+left: -10px;
+
+}
+

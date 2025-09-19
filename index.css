@@ -1,0 +1,49 @@
+* {
+    background-image: url(imagenes/fondo_index.png);
+    font-family: monospace;
+}
+
+body{
+    overflow-x: hidden;
+
+}
+
+.cabecera {
+    text-align: left;
+    top: 2em;
+    margin-left: 10%;
+    margin-bottom: 3%;
+    color: white;
+    position: relative;
+    font-size: 350%;
+    width: 50%;
+    height: 5%;
+    margin-top: 0;
+    
+}
+
+.sobreMi {
+    position: relative;
+    top: 5em;
+    margin-top: 5%;
+    height: 5%;
+    font-size: 225%;
+    padding: 0.7em;
+    left: 6em;
+    text-align: center;
+    text-decoration: none;
+    margin-left: -15%;
+    transition: filter 0.3s ease;
+
+    img{
+        width: 102.5%;
+
+    }
+}
+.sobreMi:hover {
+    filter: brightness(60%);
+
+}
+
+
+

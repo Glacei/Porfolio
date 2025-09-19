@@ -1,0 +1,58 @@
+*{
+    background-image: url(imagenes/fondo_proyectos.png);
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 1em;
+}
+
+.titular {
+    margin-top: 1em;
+    font-size: 350%;
+    color: cornflowerblue;
+    margin-bottom: 1em;
+    
+}
+
+.textoProyecto {
+    color: white;
+    font-size: 200%;
+    margin-top: 1em;
+
+}
+
+.enlaceProyecto {
+    color: white;
+    text-decoration: none;
+
+}
+
+.enlaceProyecto:hover {
+    color: darkslateblue;
+    text-decoration: none;
+
+}
+
+.botonVolver{
+    color: darkslateblue;
+    border: darkslateblue solid;
+    border-radius: 5px;
+    font-size: 200%;
+    text-decoration: none;
+    position: absolute;
+    top: 1em;
+    right: 2em;
+    padding: 0.3em;
+
+}
+
+.botonVolver:hover{
+    border: red solid;
+    color: red;
+    border-radius: 5px;
+    font-size: 200%;
+    text-decoration: none;
+    position: absolute;
+    top: 1em;
+    right: 2em;
+    padding: 0.3em;
+
+}
