@@ -53,12 +53,27 @@
     margin-top: 0.5em;
 }
 
-.fotoYo{
-    position: absolute;
-    top: 12em;
-    left: 62em;
+.contenedorFotos1{
     width: 35%;
+    transform: translateX(145%);
+    position: absolute;
+    top: 8em;
+}
+
+.marco {
+    width: 150%;
+    height: 150%;
+    
+    background-color: transparent;
+    position: absolute;
+
+}
+
+
+.fotoYo{
+    width: 100%;
     border-radius: 3em;
+
 
 }
 
@@ -83,8 +98,8 @@
 
 .gitHubFoto{
     position: absolute;
-    top: 55em;
-    left: 8em;
+    top: 54em;
+    transform: translateX(10%);
     border-radius: 20px;
     width: 35%;
 }
@@ -101,7 +116,7 @@
 .programadorFoto{
     position: absolute;
     top: 100em;
-    left: 62em;
+    transform: translateX(155%);
     border-radius: 20px;
     width: 35%;
 }

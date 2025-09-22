@@ -1,7 +1,17 @@
+@font-face {
+    font-family: 'Bungee';
+    src: url(fonts/Bungee/Bungee-Regular.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
 * {
     background-image: url(imagenes/fondo_index.png);
-    font-family: monospace;
 }
+
+
 
 body{
     overflow-x: hidden;
@@ -9,28 +19,32 @@ body{
 }
 
 .cabecera {
-    text-align: left;
-    top: 2em;
+    font-family: 'Bungee';
+    text-align: center;
+    top: 1.3em;
     margin-left: 10%;
     margin-bottom: 10%;
     color: white;
     position: relative;
-    font-size: 350%;
-    width: 50%;
+    font-size: 340%;
+    width: 80%;
     height: 5%;
     margin-top: 0;
-    transform: translateX(50%);
+    transform: translateX(2%);
     
 }
 
-.yuki{
+.contenedorFoto{
     position: absolute;
-    top: 1.5em;
-    left: 85em;
-    width: 15%; 
-    transform: translateX(100%);
-    z-index: 2;  
+    transform: translateX(550%);
+    top: 1.5em; 
+    z-index: 1;  
+    width: 15%;
 
+}
+
+.yuki{
+    width: 100%;  
 
 }
 
