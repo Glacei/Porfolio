@@ -5,12 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sobre Adrian Vazquez</title>
     <link rel = "stylesheet" href="sobreMi.css">
-    <script src = "sobreMi.js"></script>
+
 </head>
 <body>
-    <div class = "titular">Sobre Adrian Vazquez</div>
-    <div class = "titular1">Un poco sobre mi</div>
-    <div class = "seccion1">Mi nombre es Adrian Vazquez Cabezas, naci en Reus un 9 de Mayo de 2006 y desde pequeño
+    <div class = "titular" id = "titulo">Sobre Adrian Vazquez</div>
+    <div class = "titular1" id = "subtitulo1">Un poco sobre mi</div>
+    <div class = "seccion1" id = "textoSobreMi">Mi nombre es Adrian Vazquez Cabezas, naci en Reus un 9 de Mayo de 2006 y desde pequeño
         siempre me ha interesado la tecnologia, desde los videojuegos que tanto jugaba, hasta el funcionamiento de un ordenador,
         esto hizo que cuando estaba apunto de acabar la ESO, decidiera cursar el bachillerato tecnologico debido a que no sabia en que campo
         especializarme, cuando acabe este supe que el entorno que mas me interesaba era el de la programacion, decantandome asi por un 
@@ -18,14 +18,14 @@
     </div>
 
 <div class = "contenedorFotos1">
-    <img src="imagenes/placeholderYo.jpg" alt="Adri" class = "fotoYo">
+    <img src="imagenes/super foto.jpg" alt="Adri" class = "fotoYo">
     </div>
 </div>
 </div>
 
 <div class = "contenedor2">
-    <div class = "titular2">Conocimientos</div>
-    <div class = "seccion2">En cuanto a lenguajes de programacion, se utilizar Java, PHP, HTML, CSS y SQL. Luego otros que se utilizar aunque 
+    <div class = "titular2" id = "subtitulo2">Conocimientos</div>
+    <div class = "seccion2" id = "textoConocimientos">En cuanto a lenguajes de programacion, se utilizar Java, PHP, HTML, CSS y SQL. Luego otros que se utilizar aunque 
         no con tanta confianza son C#, Visual Basic .NET y JavaScript.<br><br>
 
         Se utilizar algunas entornos de desarrollo como Eclipse, Visual Studio Code, GitHub, HeidiSQL, Visual Studio
@@ -35,8 +35,8 @@
         <img src="imagenes/github.png" alt="Github" class = "gitHubFoto">
 
 <div class = "contenedor3">
-    <div class = "titular2">Habiliades</div>
-    <div class = "seccion2">Puedo trabajar tanto en equipo como en solitario, aprendo muy rapido cuando me interesa el tema, me gusta mantener
+    <div class = "titular2" id = "subtitulo3">Habiliades</div>
+    <div class = "seccion2" id = "textoHabilidades">Puedo trabajar tanto en equipo como en solitario, aprendo muy rapido cuando me interesa el tema, me gusta mantener
         un ambiente positivo en mi entorno de trabajo y tengo ganas de aprender el mundo laboral. 
         Tambien me considero bastante responsable y se me da bien resolver problemas. <br><br>
 
@@ -49,8 +49,8 @@
 
 
     <div class="contenedorRedes">
-    <div class = "titular2">Redes y contacto</div>
-    <div class = "seccion2">Pueden contactarme por mail: adrivc890@gmail.com <br><br>
+    <div class = "titular2" id = "subtitulo4">Redes y contacto</div>
+    <div class = "seccion2" id =  "textoRedes">Pueden contactarme por mail: adrivc890@gmail.com <br><br>
         Tambien me pueden contactar por Twitter/X : <a class = "enlacesRedes" href="https://x.com/ThatFei" target = "_blank">@ThatFei</a>
         <br><br>
         Tambien dejo por aqui mi GitHub: <a class = "enlacesRedes" href = "https://github.com/Glacei" target ="_blank">Glacei</a>
@@ -61,6 +61,13 @@
 
 
  <a class ="botonVolver" href = "index.html"> Volver</a>
+
+ <div class = "contenedorTraducciones"> 
+    <button onclick="cambiarIdioma('cat')" class = "botonTraducciones">Català</button>
+    <button onclick="cambiarIdioma('es')" class = "botonTraducciones">Castellano</button>
+    <button onclick="cambiarIdioma('en')" class = "botonTraducciones">English</button>
+</div>
+<script src = "sobreMi.js"></script>
 <div class="contenedoraAbajo"></div>
 </body>
 </html>

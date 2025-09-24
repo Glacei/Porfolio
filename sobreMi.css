@@ -63,7 +63,7 @@
 
 .contenedorFotos1{
     width: 33%;
-    transform: translate(171%, -86%);
+    transform: translate(181%, -86%);
     position: absolute;
 }
 
@@ -77,7 +77,7 @@
 
 
 .fotoYo{
-    width: 100%;
+    width: 90%;
     border-radius: 3em;
 
 
@@ -86,7 +86,7 @@
 .contenedor2{
     width: 40%;
     position: relative;
-    top: 12em;
+    top: 8em;
     left:50%;
     text-align: right;
 }
@@ -104,7 +104,7 @@
 
 .gitHubFoto{
     position: absolute;
-    transform: translate(11.5%, -50%);
+    transform: translate(11.5%, -57%);
     border-radius: 20px;
     width: 35%;
 }
@@ -112,7 +112,7 @@
 .contenedor3 {
     width: 40%;
     position: relative;
-    top: 20em;
+    top: 19em;
     left: 5em;
     text-align: left;
 
@@ -158,3 +158,29 @@ left: -10px;
 
 }
 
+.contenedorTraducciones {
+    width: 30%;
+    position: absolute;
+    top: 3em;
+    right: 0.2em;
+
+}
+
+.botonTraducciones{
+    border: black solid;
+    color: black;
+    border-radius: 5px;
+    font-size: 200%;
+    text-decoration: none;
+    padding: 2%;
+    
+}
+
+.botonTraducciones:hover{
+    border: red solid;
+    color: red;
+    font-size: 200%;
+    text-decoration: none;
+    padding: 2%;
+
+}
