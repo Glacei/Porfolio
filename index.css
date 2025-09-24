@@ -26,11 +26,12 @@ body{
     margin-bottom: 10%;
     color: white;
     position: relative;
-    font-size: 340%;
+    font-size: 330%;
     width: 80%;
     height: 5%;
     margin-top: 0;
     transform: translateX(2%);
+    background-color: transparent;
     
 }
 
@@ -40,13 +41,9 @@ body{
     top: 1.5em; 
     z-index: 1;  
     width: 15%;
-
+    background-color: transparent;
 }
 
-.yuki{
-    width: 100%;  
-
-}
 
 .contenedorEnlaces{
     position: relative; 

@@ -1,3 +1,11 @@
+@font-face {
+    font-family: 'Bungee';
+    src: url(fonts/Bungee/Bungee-Regular.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 * {
     background-color: white;
     font-family: monospace;
@@ -54,16 +62,14 @@
 }
 
 .contenedorFotos1{
-    width: 35%;
-    transform: translateX(145%);
+    width: 33%;
+    transform: translate(171%, -86%);
     position: absolute;
-    top: 8em;
 }
 
 .marco {
     width: 150%;
     height: 150%;
-    
     background-color: transparent;
     position: absolute;
 
@@ -98,8 +104,7 @@
 
 .gitHubFoto{
     position: absolute;
-    top: 54em;
-    transform: translateX(10%);
+    transform: translate(11.5%, -50%);
     border-radius: 20px;
     width: 35%;
 }
@@ -115,8 +120,7 @@
 
 .programadorFoto{
     position: absolute;
-    top: 100em;
-    transform: translateX(155%);
+    transform: translate(155.5%, -22%);
     border-radius: 20px;
     width: 35%;
 }
